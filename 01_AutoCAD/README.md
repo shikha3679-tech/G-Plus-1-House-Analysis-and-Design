@@ -1,0 +1,20 @@
+# AutoCAD – Architectural Planning
+
+This section contains the architectural drawings developed for the G+1 residential building.
+
+## Software Used
+- AutoCAD
+
+## Contents
+- 2D Floor Plan
+- Room Layout
+- Architectural Dimensions
+
+## Files
+- `2D_Floor_Plan.dwg` – Editable AutoCAD drawing
+- `2D_Floor_Plan.pdf` – Drawing in PDF format
+
+## Description
+
+The architectural floor plan was prepared using AutoCAD. The drawing shows the arrangement of rooms, 
+including bedrooms, kitchen, living area, hall, toilets, and other spaces with their respective dimensions.
