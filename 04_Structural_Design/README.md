@@ -1,36 +1,18 @@
-# RCC Structural Design
+# Structural Design (RCC Design)
 
-This section contains the detailed structural design calculations for the G+1 residential building.
+This section contains the reinforced concrete design of structural members, performed in STAAD.Pro as per IS 456:2000.
 
-## Design Components
-
-The following structural elements were designed:
-
-- Slabs
-- Beams
-- Columns
-- Footings
-
-## Design Considerations
-
-The design was carried out considering:
-
-- Dead Load
-- Live Load
-- Factored Load Combinations
-- Bending Moment
-- Shear Force
-- Deflection requirements
+## Design Scope
+- Beam Design: Completed (STAAD.Pro Limit State Design)
+- Column Design: Completed (STAAD.Pro Limit State Design)
+- Slab Design: Not performed as part of this project (floor loads were applied and considered in the overall structural analysis, but slab reinforcement design was outside the scope of this STAAD.Pro model)
+- Footing Design: Not performed as part of this project (supports were modeled as fixed; foundation design was outside the scope of this analysis)
 
 ## Files
-
-- `Slab_Design.pdf` – Slab design calculations
-- `Beam_Design.pdf` – Beam design calculations
-- `Column_Design.pdf` – Column design calculations
-- `Footing_Design.pdf` – Foundation design calculations
+- `Beam_Design.pdf` – Beam-wise reinforcement design results (IS 456:2000)
+- `Beam_Reinforcement.png` – Sample beam reinforcement detail
+- `Column_Design.pdf` – Column-wise reinforcement design results (IS 456:2000)
+- `Column_Reinforcement.png` – Sample column reinforcement detail
 
 ## Description
-
-The structural members of the G+1 residential building were designed based on the loads obtained from the structural analysis.
-The design includes the calculation of required reinforcement and verification of the structural members 
-for strength and serviceability requirements.
+Beams and columns were designed using STAAD.Pro's integrated concrete design module as per IS 456:2000 Limit State Method, using M25 concrete and Fe500 steel. Design was based on the governing forces obtained from the 14 load combinations (gravity and seismic).
